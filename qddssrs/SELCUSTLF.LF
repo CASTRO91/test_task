@@ -1,0 +1,13 @@
+     A          R JOINREC                   JFILE(UGFPF USCPF USAPF)
+     A          J                           JOIN(UGFPF USCPF)
+     A                                      JFLD(UGFCPNC USCCPNC)
+     A          J                           JOIN(USCPF USAPF)
+     A                                      JFLD(USCIBAN USAIBAN)
+     A            UGFCPNC
+     A            USAIBAN
+     A            USATA
+     A            USADOM
+     A            USACCY
+     A            USAAMA
+     A          S USADOM                    RANGE(1190701 1190731)
+     A            USATA                     COMP(EQ 'C')
