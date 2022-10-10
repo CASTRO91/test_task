@@ -39,6 +39,6 @@
           ENDIF;
           READE KEY SELCUSTLF;
         EndDo;
-
+        DSPLY 'success';
        *inlr = *on;
       /End-Free
