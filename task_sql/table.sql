@@ -1,4 +1,4 @@
-DROP VIEW IF EXISTS SUM_CREDIT;
+DROP VIEW IF EXISTS CREDTURN;
 DROP TABLE IF EXISTS USAPF;
 DROP TABLE IF EXISTS USCPF;
 DROP TABLE IF EXISTS UGFPF;
@@ -23,7 +23,7 @@ CREATE TABLE USCPF (
         
     USCIBAN char(28) PRIMARY KEY UNIQUE,  /* Номер счета в формате IBAN   текст(28) */
         
-    USCDOA  decimal(7,0),                 /* Дата открытия счета число 7, 0 */ 
+    USCDAO  decimal(7,0),                 /* Дата открытия счета число 7, 0 */ 
         
     USCDCA  decimal(7,0),                 /* Дата закрытия счета число 7, 0 */ 
         
