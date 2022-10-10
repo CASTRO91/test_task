@@ -1,0 +1,16 @@
+     A                                      UNIQUE
+     A          R UGFCUST
+     A
+     A            UGFCPNC        6A         TEXT('Unique customer number')
+     A                                      COLHDG('Unique' 'customer number')
+     A            UGFCUN        35A         TEXT('Full name of customer')
+     A                                      COLHDG('Full' 'name of customer')
+     A            UGFSCUN       15A         TEXT('Short name customer')
+     A                                      COLHDG('Short' 'name customer')
+     A            UGFCTP         2S 0       TEXT('Customer type')
+     A                                      COLHDG('Customer type')
+     A            UGFDCE         7S 0       TEXT('Customer entry date')
+     A                                      COLHDG('Entry date')
+     A            UGFRD          3A         TEXT('Responsible Department')
+     A                                      COLHDG('Responsible' 'Department')
+     A          K UGFCPNC
